@@ -87,7 +87,7 @@ According to the recommendations of health experts, in a year, the average perso
 <br>
 <div>
   <p align="center">
-    <img src="images_for_readme/Package-searching.png" alt="Package Check-ups Searching">
+    <img src="images_for_readme/package-searching.png" alt="Package Check-ups Searching">
   </p>
   <p align="center"><b><i>Package Check-ups Searching</i></b></p>
 </div>
