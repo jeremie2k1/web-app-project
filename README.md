@@ -25,7 +25,7 @@ According to the recommendations of health experts, in a year, the average perso
 
 ## Features
 * <b>User:</b> User can register for an account, log in, choose a form of examination (online / in person at the hospital), choose a specialty they want to visit, choose a doctor, choose a date and time for an appointment, rate for the doctor, contact doctor.
-* <b>Doctor:</b> The doctor has the to accept or refuse the medical examination request from the user. Schedule a time when the patient can be seen. Answer for patient's question. Write own profile of the doctor.
+* <b>Doctor:</b> The doctor has the permission to accept or refuse the medical examination request from the user. Schedule a time when the patient can be seen. Answer for patient's question. Write own profile of the doctor.
 * <b>Admin:</b> Admin has the permission to add, delete and edit doctor's information. Provide an account for the doctor. Block users from the site.
  
 ## Usecase
