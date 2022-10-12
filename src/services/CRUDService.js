@@ -16,7 +16,7 @@ let createNewUser = async (data) => {
                 address: data.address,
                 phoneNumber: data.phoneNumber,
                 gender: data.gender == 1 ? true : false,
-                roleID: data.roleID,
+                roleId: data.roleId,
             })
 
             resolve('new user was inserted!');
