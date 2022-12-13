@@ -9,17 +9,17 @@ module.exports = (sequelize, DataTypes) => {
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
-    static associate(models) {
+    static associate (models) {
       // define association here
+      Schedule.belongsTo(models.Allcode, { foreignKey: 'timeType', targetKey: 'keyMap', as: 'timeTypeData' })
     }
   };
-  Schedule.init({
+  Schedule.init({ // viet nhung thuoc tinh cua Schedule vao day
     currentNumber: DataTypes.INTEGER,
     maxNumber: DataTypes.INTEGER,
-    date: DataTypes.DATE,
+    date: DataTypes.STRING,
     timeType: DataTypes.STRING,
-    doctorId: DataTypes.INTEGER,
-
+    doctorId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Schedule',
