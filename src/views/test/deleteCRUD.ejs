@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,13 +16,12 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
 <body>
     <div class="container">
         <div class="row">
             <form action="/ac-delete-crud" method="POST">
                 <div class="form-row">
-                    <div class="col-12 mt-3"><b>Are you sure you want to delete information?</b></div>
+                  <div class="col-12 mt-3"><b>Are you sure you want to delete information?</b></div>
                 </div>
                 <input type="text" name="id" value="<%= user.id %>" hidden>
                 <button type="submit" class="btn btn-primary">Agree</button>
@@ -31,5 +29,4 @@
         </div>
     </div>
 </body>
-
 </html>
